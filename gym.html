@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <!-- <link rel="stylesheet" href="stylle.css"> -->
+    <!-- <link rel="stylesheet" href="popou[.html"> -->
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background:linear-gradient(rgba(0,0,0,0065),rgba(0,0,0,0.65)), url('marten-bjork-VhEszoHs07Q-unsplash(1).jpg');
+            background-repeat: no-repeat ;
+            background-position:center ;
+            background-size: cover;
+            color: white;
+            font-family: sans-serif;
+        }
+        .left{
+         /* border: 2px solid red; */
+         display: inline-block;
+         position: absolute;
+         left: 34px;
+         top: 20px;
+        }
+        .left img{
+            width: 60px;
+        }
+        .mid{
+            /* border: 2px solid rgb(0, 255, 8); */
+            display: block;
+            width: 49%;
+            margin: 20px auto;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            /* border: 2px solid rgb(89, 0, 255); */
+            right: 34px;
+            top: 20px;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 34px 23px; 
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid green;
+            border-radius: 10px;
+            font-size: 20px; 
+            cursor: pointer;
+            
+        }
+        .btn:hover{
+            background-color: rgb(147, 207, 36);
+        }
+        .container{
+            /* border: 2px solid   rgb(172, 85, 100); */
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 3px;
+        }
+        .form-group input{
+            text-align: center;
+            width: 508px;
+            padding: 1px;
+            display: block;
+            border: 3px solid black;
+            margin: 12px auto;
+            font-size: 20px;
+            border-radius: 8px;
+            
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 508px;
+            margin: 20px auto;
+        }
+            
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left"> 
+         <img src="12.png" alt="">
+         <div>Student</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Abouts</a></li>
+                <li><a href="#">Fitness </a></li>
+                <li><a href="#">Contact us</a></li>
+             </ul>
+           
+        </div>
+
+        <div class="right">
+           <button class="btn">Call us now</button>
+           <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join</h1>
+        <form action="#">
+         <div class="form-group ">
+            <input type="text" placeholder="Enter Name">
+         </div>
+
+         <div class="form-group">
+            <input type="text" placeholder="Enter Email">
+         </div>
+
+         <div class="form-group">
+            <input type="password" placeholder="EnterPass words">
+         </div>
+
+         <div class="form-group group">
+            <input type="text" placeholder="Enter Name">
+         </div>
+          
+         <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
